@@ -1,5 +1,6 @@
 """List of prime numbers generator."""
 """ENTER YOUR SOLUTION HERE!"""
+import math
 
 def primes(number_of_primes):
     list = []
