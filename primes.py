@@ -3,7 +3,6 @@
 import math
 
 def primes(number_of_primes):
-    list = []
     listOfPrimes = []
     number = 2
     if (number_of_primes<1):
@@ -18,5 +17,6 @@ def primes(number_of_primes):
         if check:
             listOfPrimes.append(number)
         number += 1
-    return list
+    return listOfPrimes
 
+print(primes(20))
